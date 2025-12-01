@@ -13,7 +13,7 @@ df = pd.DataFrame ({
 
 col1, col2 = st.columns(2)
 col1.metric("Total Pendapatan dari Data Science ", "Rp 2.5 Milyar", "+126%")
-col2.metric("Total Profit Investasi S&P 500 & Crypto", "Rp 150 Milyar", "+900%")
+col2.metric("Total Profit Investasi S&P 500 & Crypto", "Rp 950 Milyar", "+900%")
 
 fig = px.line (df, x = "Bulan", y= ["Pendapatan Data Science (M)", "Profit Investasi(M)"],
                title= "Trend 6 Bulan Terakhir")
