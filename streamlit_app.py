@@ -8,7 +8,7 @@ st.title("Selamat! Dashboard pertamaku sudah live")
 df = pd.DataFrame ({
   "Bulan": ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun"],
   "Pendapatan Data Science (M)":[1, 5, 8, 10, 50, 75],
-  "Profit Investasi (M)": [100, 400, 560, 600, 700, 900]
+  "Profit Investasi(M)": [100, 400, 560, 600, 700, 900]
 })
 
 col1, col2 = st.columns(2)
