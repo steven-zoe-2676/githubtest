@@ -15,7 +15,7 @@ col1, col2 = st.columns(2)
 col1.metric("Total Pendapatan dari Data Science ", "Rp 2.5 Milyar", "+126%")
 col2.metric("Total Profit Investasi S&P 500 & Crypto", "Rp 150 Milyar", "+900%")
 
-fig = px.line (df, x = "Bulan", y= ["Penjualan (jt)", "Profit(jt)"],
+fig = px.line (df, x = "Bulan", y= ["Pendapatan Data Science (M)", "Profit Investasi(M)"],
                title= "Trend 6 Bulan Terakhir")
 st.plotly_chart(fig, use_container_width=True)
-st.success("Dashboard berhasil di-deploy! KAMU HEBAT STEVEN")
+st.success("Dashboard berhasil di-deploy! KAMU SUNGGUH HEBAT STEVEN. AKU BANGGA KEPADAMU")
