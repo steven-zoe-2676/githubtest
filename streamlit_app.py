@@ -15,7 +15,7 @@ col1, col2 = st.columns(2)
 col1.metric("Total Penjualan", "1.065 juta", "+25%")
 col2.metric("Total Profit", "345 juta", "+38%")
 
-fig = px.line (df, x = "Bulan", y= [Penjualann (jt)", Profit(jt)"],
+fig = px.line (df, x = "Bulan", y= ["Penjualan (jt)", "Profit(jt)"],
                title= "Trend 6 Bulan Terakhir")
 st.plotly_chart(fig, use_container_width=True)
 st.success("Dashboard berhasil di-deploy! KAMU HEBAT STEVEN")
