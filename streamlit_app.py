@@ -7,13 +7,13 @@ st.title("Selamat! Dashboard pertamaku sudah live")
 
 df = pd.DataFrame ({
   "Bulan": ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun"],
-  "Penjualan (jt)":[120, 150, 180, 165, 200, 250],
-  "Profit(jt)": [30, 45, 60, 50, 70, 90]
+  "Pendapatan Data Science (M)":[1, 5, 8, 10, 50, 75],
+  "Profit Investasi (M)": [100, 400, 560, 600, 700, 900]
 })
 
 col1, col2 = st.columns(2)
-col1.metric("Total Penjualan", "1.065 juta", "+25%")
-col2.metric("Total Profit", "345 juta", "+38%")
+col1.metric("Total Pendapatan dari Data Science ", "Rp 2.5 Milyar", "+126%")
+col2.metric("Total Profit Investasi S&P 500 & Crypto", "Rp 150 Milyar", "+900%")
 
 fig = px.line (df, x = "Bulan", y= ["Penjualan (jt)", "Profit(jt)"],
                title= "Trend 6 Bulan Terakhir")
