@@ -6,7 +6,7 @@ st.set_page_config(page_title="My First Dashboard", layout="wide")
 st.title("Selamat! Dashboard pertamaku sudah live")
 
 df = pd.DataFrame ({
-  "Bulan": ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun"),
+  "Bulan": ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun"],
   "Penjualan (jt)":[120, 150, 180, 165, 200, 250],
   "Profit(jt)": [30, 45, 60, 50, 70, 90]
 })
